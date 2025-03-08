@@ -131,6 +131,18 @@ code {
 .bg-pale-mint {
   background-color: #d6f3f3;
 }
+.bg-pale-pink {
+  background-color: #ffe6eb;
+}
+
+.bg-pale-lavender {
+  background-color: #e6e6ff;
+}
+
+.bg-pale-yellow {
+  background-color: #fffbd6;
+}
+
 
 .bg-gray-400 {
   background-color: #9ca3af;
@@ -224,7 +236,7 @@ code {
 
 .hidden-text {
   position: absolute;
-  bottom: -80px;
+  bottom: -120px;
   left: 0;
   width: 100%;
   height: 80px;
@@ -241,9 +253,22 @@ code {
   line-height: 1.4;
   overflow-y: auto;
   text-align: center;
+
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content */
+  min-height: 120px; /* Ensure it has at least 80px height */
+  max-height: fit-content; /* Prevent excessive height */
+
 }
 
 .project-card:hover .hidden-text {
-  transform: translateY(-80px);
+  transform: translateY(-120px);
 }
 
+.play-button
+{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
