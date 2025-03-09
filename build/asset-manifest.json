@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maiabuc.github.io/static/css/main.7b07e56f.css",
+    "main.js": "/maiabuc.github.io/static/js/main.bf14da8a.js",
+    "static/js/453.195b869a.chunk.js": "/maiabuc.github.io/static/js/453.195b869a.chunk.js",
+    "static/media/TheMusic.mp3": "/maiabuc.github.io/static/media/TheMusic.01c0f0075c702432d4ef.mp3",
+    "static/media/LinkandLearn.png": "/maiabuc.github.io/static/media/LinkandLearn.5bbd764a1eb04b09a809.png",
+    "static/media/BameOcr.png": "/maiabuc.github.io/static/media/BameOcr.f4fef7aeadf8363cbbbe.png",
+    "static/media/Piquette.png": "/maiabuc.github.io/static/media/Piquette.2f6bb815b9cb9ea8e5d2.png",
+    "static/media/Malloc.png": "/maiabuc.github.io/static/media/Malloc.af57373423681c845280.png",
+    "static/media/quatroDos.png": "/maiabuc.github.io/static/media/quatroDos.96a0a4cd8e3e8ce714d2.png",
+    "static/media/ThisWebsite.png": "/maiabuc.github.io/static/media/ThisWebsite.f8d6fa94a43af803c83a.png",
+    "index.html": "/maiabuc.github.io/index.html",
+    "main.7b07e56f.css.map": "/maiabuc.github.io/static/css/main.7b07e56f.css.map",
+    "main.bf14da8a.js.map": "/maiabuc.github.io/static/js/main.bf14da8a.js.map",
+    "453.195b869a.chunk.js.map": "/maiabuc.github.io/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b07e56f.css",
+    "static/js/main.bf14da8a.js"
+  ]
+}
