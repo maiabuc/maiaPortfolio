@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://maiabuc.github.io/maiabuc.github.io",
+  "homepage": "https://maiabuc.github.io/maiaPortfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
