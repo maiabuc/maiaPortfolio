@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/maiaPortfolio/static/css/main.7b07e56f.css",
-    "main.js": "/maiaPortfolio/static/js/main.5bd4739d.js",
+    "main.js": "/maiaPortfolio/static/js/main.cd45ed7b.js",
     "static/js/453.195b869a.chunk.js": "/maiaPortfolio/static/js/453.195b869a.chunk.js",
+    "static/media/ML_Project.pdf": "/maiaPortfolio/static/media/ML_Project.b2ccd171e124309dea67.pdf",
     "static/media/TheMusic.mp3": "/maiaPortfolio/static/media/TheMusic.01c0f0075c702432d4ef.mp3",
     "static/media/LinkandLearn.png": "/maiaPortfolio/static/media/LinkandLearn.5bbd764a1eb04b09a809.png",
     "static/media/BameOcr.png": "/maiaPortfolio/static/media/BameOcr.f4fef7aeadf8363cbbbe.png",
+    "static/media/Bacteria.png": "/maiaPortfolio/static/media/Bacteria.ee8426b46d5b1e2958f9.png",
+    "static/media/CV_MaiaBucamp_fr.pdf": "/maiaPortfolio/static/media/CV_MaiaBucamp_fr.d392d5124f9c01878a9d.pdf",
+    "static/media/Resume_MaiaBUCAMP.pdf": "/maiaPortfolio/static/media/Resume_MaiaBUCAMP.8ce8c769866cf09e37fe.pdf",
     "static/media/Piquette.png": "/maiaPortfolio/static/media/Piquette.2f6bb815b9cb9ea8e5d2.png",
     "static/media/Malloc.png": "/maiaPortfolio/static/media/Malloc.af57373423681c845280.png",
     "static/media/quatroDos.png": "/maiaPortfolio/static/media/quatroDos.96a0a4cd8e3e8ce714d2.png",
     "static/media/ThisWebsite.png": "/maiaPortfolio/static/media/ThisWebsite.f8d6fa94a43af803c83a.png",
     "index.html": "/maiaPortfolio/index.html",
     "main.7b07e56f.css.map": "/maiaPortfolio/static/css/main.7b07e56f.css.map",
-    "main.5bd4739d.js.map": "/maiaPortfolio/static/js/main.5bd4739d.js.map",
+    "main.cd45ed7b.js.map": "/maiaPortfolio/static/js/main.cd45ed7b.js.map",
     "453.195b869a.chunk.js.map": "/maiaPortfolio/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b07e56f.css",
-    "static/js/main.5bd4739d.js"
+    "static/js/main.cd45ed7b.js"
   ]
 }
