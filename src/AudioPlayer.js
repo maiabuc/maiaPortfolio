@@ -27,6 +27,7 @@ const AudioPlayer = () => {
         style={{ cursor: "pointer" }} // Make the image clickable
         className="play-button"
       />
+      {/*<a> Play Music</a>*/}
     </div>
   );
 };

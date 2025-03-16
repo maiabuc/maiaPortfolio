@@ -6,6 +6,10 @@ import LinkLearn from "./images/LinkandLearn.png";
 import Piquette from "./images/Piquette.png";
 import Tiger from "./images/Tiger.jpeg";
 import AudioPlayer from "./AudioPlayer";
+import Bacteria from "./images/Bacteria.png";
+import ML from "./documents/ML_Project.pdf";
+import EnglishCV from "./documents/Resume_MaiaBUCAMP.pdf";
+import FrenchCV from "./documents/CV_MaiaBucamp_fr.pdf";
 
 function ProjectCard({
   title,
@@ -15,6 +19,7 @@ function ProjectCard({
   children,
   image,
   link,
+  document,
 }) {
   return (
     <div className="project-card">
@@ -51,6 +56,15 @@ function ProjectCard({
               Click and GO →
             </a>
           )}
+          {document && (
+            <a
+              href={document}
+              download="Project Specifications"
+              className="text-blue-600 font-bold mt-2 inline-block hover:underline"
+            >
+              Download Project Specifications →
+            </a>
+          )}
         </p>
       </div>
     </div>
@@ -72,6 +86,26 @@ function App() {
         <h4>(Epita projects are required to have private repositories)</h4>
       </header>
       <AudioPlayer />
+      <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
+        <a
+          href={EnglishCV}
+          download="CV-MaiaBucamp"
+          className="font-bold mt-2 hover:underline"
+          style={{ color: "#8B004D" }}
+        >
+          Download my Resume →
+        </a>
+        <a
+          href={FrenchCV}
+          download="CV-MaiaBucamp_fr"
+          className="font-bold mt-2 hover:underline"
+          style={{ color: "#8B004D" }}
+        >
+          Télécharger mon CV →
+        </a>
+      </div>
+      <p></p>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Project 1 - Link&Learn */}
         <ProjectCard
@@ -89,6 +123,15 @@ function App() {
           bgColor="bg-pale-blue"
           description="The project aims at the implementation of a compiler in C++. C++ is by no means an adequate language to study compilers but it is a school requirement"
           image={Tiger}
+        />
+        {/* Project 2 Bacteria KHU*/}
+        <ProjectCard
+          title="CNN Bacteria Segmentation"
+          subtitle="Introduction to Machine Learning KHU • 2024"
+          bgColor="bg-pale-mint"
+          description="Detection and segmentation of bacteria. After training the accuracy given was 97.53% using validation data."
+          image={Bacteria}
+          document={ML}
         />
 
         {/* Project 2 42SH*/}
